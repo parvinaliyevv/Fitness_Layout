@@ -211,18 +211,19 @@ span {
 
 .content {
     padding-top: 270px;
+    width: 80%;
+    margin: auto;
 }
 
 .content h1 {
     font: 2em 'Open Sans';
     font-weight: 400;
     text-transform: none;
-    width: 70%;
-    margin: auto;
+    
 }
 
 .content p {
-    width: 45%;
+    width: 60%;
     margin: auto;
     font: 400 1em 'Open Sans';
     line-height: 23px;
@@ -234,7 +235,7 @@ footer {
 }
 
 .footer-padding {
-    padding: 65px 20px 0 0;
+    padding: 65px 0 0 0;
 }
 
 footer div {
@@ -258,13 +259,8 @@ footer li, footer a {
     display: inline-block;
 }
 
-footer li {
-    padding: 0;
-}
-
 footer .form {
-    padding-top: 20px;
-    margin-right: 20px;
+    padding-top: 20px 0 30px 0;
 }
 
 footer input {
@@ -403,14 +399,23 @@ footer button {
         text-align: inherit;
     }
 
+    footer li {
+        padding: 3px;
+    }
+
     footer .form {
         clear: left;
         text-align: right;
         padding-top: 40px;
     }
 
+    .footer-padding {
+        padding-right: 20px;
+    }
+
+   
+
     footer input {
         display: inline-block;
     }
-
 }
