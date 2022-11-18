@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --first-app-color: #fd634e;
+    --second-app-color: #a2ca28;
+}
+
+.bgred {
+    background-color: var(--first-app-color);
+}
+
+.bggreen {
+    background-color: var(--second-app-color);
+}
+
+.bgwhite {
+    background-color: #fff;
+}
+
+.txtred {
+    color: var(--first-app-color);
+}
+
+.txtgreen {
+    color: var(--second-app-color);
+}
+
+.txtwhite {
+    color: #fff;
+}
+
+.txtgray {
+    color: #656e74;
+}
+
+header {
+    height: 100vh;
+    background: url("../images/headbg.jpg") center/cover;
+    padding: 40px 50px;
+    position: relative;
+}
+
+header nav {
+    text-align: center;
+}
+
+#menu {
+    padding: 15px 0 0 0;
+}
+
+#menu a {
+    font: 0.8em 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#topics {
+    position: absolute;
+    bottom: 17vh;
+    left: 7.5%;
+    text-align: right;
+}
+
+h1 {
+    font: 2em/1.5 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5 {
+    font: 700 0.9em/2 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 60px 0 0;
+}
+
+.artrow {
+    padding: 70px 0;
+}
+
+.col-25 {
+    min-height: 280px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.artrow i {
+    font-size: 50px;
+    padding: 5px;
+}
+
+.col-25 h3 {
+    font: 400 1.5em 'Open Sans', sans-serif;
+}
+
+.col-25 p {
+    margin: 32px 0;
+}
+
+.col-25 p,
+a {
+    font: 0.9em 'Yantramanav', sans-serif;
+    line-height: 24px;
+
+}
+
+.padding-50 {
+    padding: 50px 25px;
+}
+
+.padding-60 {
+    padding: 60px 0 60px 60px;
+}
+
+.margin-7 {
+    margin: 7px;
+}
+
+.ico {
+    font-size: 25px;
+    opacity: 30%;
+}
+
+span {
+    font: 400 0.95em 'Open Sans';
+}
+
+.a-center {
+    text-align: center;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.f-right-mobile {
+    float: right;
+}
+
+.h2-style {
+    font: 300 2em 'Open Sans';
+    text-transform: uppercase;
+}
+
+.h6-style {
+    font: bolder 0.9em 'Montserrat';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.bg-text-style {
+    font: 700 0.9em 'Montserrat';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.p-style {
+    font: 400 0.9em "Open Sans";
+    line-height: 26px;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.left-top {
+    top: 45px;
+    left: 70px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right-bottom {
+    bottom: 45px;
+    right: 70px;
+}
+
+.left-bottom {
+    bottom: 45px;
+    left: 70px;
+}
+
+#bgbottom {
+    min-height: 800px;
+    text-align: center;
+}
+
+.content {
+    padding-top: 270px;
+}
+
+.content h1 {
+    font: 2em 'Open Sans';
+    font-weight: 400;
+    text-transform: none;
+}
+
+.content p {
+    width: 45%;
+    margin: auto;
+    font: 400 1em 'Open Sans';
+    line-height: 23px;
+}
+
+footer {
+    background-color: #0c1119;
+}
+
+.footer-padding {
+    padding: 65px 20px 0 0;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer h6 {
+    font: 400 0.95em 'Open Sans';
+    line-height: 12px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+footer p {
+    font: 400 0.9em 'Open Sans';
+    color: #8297a7;
+    line-height: 24px;
+}
+
+footer li, footer a {
+    display: inline-block;
+}
+
+footer li {
+    padding: 0;
+}
+
+footer .form {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+footer input {
+    border: none;
+    border-radius: 4px;
+    padding: 15px 0;
+    text-indent: 20px;
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+footer button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 40px;
+    width: 250px;
+}
+
+#fitnessfirst {
+    background: url("../images/fitnessfirst.jpg") center/cover;
+}
+
+#yourbody {
+    background: url("../images/yourbody.jpg") center/cover;
+}
+
+#lifestyle {
+    background: url("../images/lifestyle.jpg") center/cover;
+}
+
+#summeroffun {
+    background: url("../images/summeroffun.jpg") center/cover;
+}
+
+#involvedyourself {
+    background: url("../images/involvedyourself.jpg") center/cover;
+}
+
+#eatinghabits {
+    background: url("../images/eatinghabits.jpg") center/cover;
+}
+
+#bgbottom {
+    background: url("../images/launchleaders.jpg") center/cover;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header nav {
+        text-align: inherit;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .container {
+        max-width: 1045px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .row::after {
+        content: ' ';
+        display: table;
+        clear: both;
+    }
+
+    .f-left {
+        float: left;
+    }
+
+    .f-right {
+        float: right;
+    }
+
+    .col-25 {
+        position: relative;
+        width: 25%;
+        padding: 0 20px 0 0;
+        text-align: inherit;
+    }
+
+    .col-25 a {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+    }
+
+    .col-33 {
+        width: 33.33%;
+    }
+
+    .col-66 {
+        width: 66.66%;
+    }
+
+    .col-36 {
+        width: 36%;
+    }
+
+    .col-28 {
+        width: 28%;
+    }
+
+    .bg-text-style {
+        text-align: inherit;
+    }
+
+    .right-padding {
+        padding-right: 40px;
+    }
+
+    .left-padding {
+        padding-left: 40px;
+    }
+
+    .content h1 {
+        font-size: 2.5em;
+    }
+
+    footer {
+        min-height: 350px;
+    }
+
+    footer div {
+        text-align: inherit;
+    }
+
+    footer .form {
+        clear: left;
+        text-align: right;
+        padding-top: 40px;
+    }
+
+    footer input {
+        display: inline-block;
+    }
+
+}
