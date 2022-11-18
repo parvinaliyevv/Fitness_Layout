@@ -261,6 +261,7 @@ footer li, footer a {
 
 footer .form {
     padding-top: 20px 0 30px 0;
+    height: 200px;
 }
 
 footer input {
