@@ -113,7 +113,7 @@ a {
 }
 
 .padding-60 {
-    padding: 60px 0 60px 60px;
+    padding: 60px;
 }
 
 .margin-7 {
@@ -121,8 +121,7 @@ a {
 }
 
 .ico {
-    font-size: 25px;
-    opacity: 30%;
+    font-size: 0;
 }
 
 span {
@@ -130,6 +129,10 @@ span {
 }
 
 .a-center {
+    text-align: center;
+}
+
+.a-center-mobile {
     text-align: center;
 }
 
@@ -161,7 +164,7 @@ span {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-    padding: 40px 0 0 0;
+    padding: 40px 0 0 0;    
 }
 
 .p-style {
@@ -214,6 +217,8 @@ span {
     font: 2em 'Open Sans';
     font-weight: 400;
     text-transform: none;
+    width: 70%;
+    margin: auto;
 }
 
 .content p {
@@ -221,6 +226,7 @@ span {
     margin: auto;
     font: 400 1em 'Open Sans';
     line-height: 23px;
+    padding-top: 30px;
 }
 
 footer {
@@ -364,12 +370,13 @@ footer button {
         width: 66.66%;
     }
 
-    .col-36 {
-        width: 36%;
+    .a-center-mobile {
+        text-align: inherit;
     }
 
-    .col-28 {
-        width: 28%;
+    .ico {
+        font-size: 25px;
+        opacity: 30%;
     }
 
     .bg-text-style {
