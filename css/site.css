@@ -205,13 +205,13 @@ span {
 }
 
 #bgbottom {
-    min-height: 800px;
+    height: 100vh;
     text-align: center;
 }
 
 .content {
-    padding-top: 270px;
-    width: 80%;
+    padding-top: 200px;
+    width: 90%;
     margin: auto;
 }
 
@@ -223,7 +223,7 @@ span {
 }
 
 .content p {
-    width: 60%;
+    width: 70%;
     margin: auto;
     font: 400 1em 'Open Sans';
     line-height: 23px;
@@ -307,7 +307,7 @@ footer button {
 }
 
 #bgbottom {
-    background: url("../images/launchleaders.jpg") center/cover;
+    background: url("../images/launchleaders.jpg") round;
 }
 
 @media only screen and (min-width: 768px) {
