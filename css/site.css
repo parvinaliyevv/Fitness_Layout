@@ -307,7 +307,7 @@ footer button {
 }
 
 #bgbottom {
-    background: url("../images/launchleaders.jpg") round;
+    background: url("../images/launchleaders.jpg") center;
 }
 
 @media only screen and (min-width: 768px) {
